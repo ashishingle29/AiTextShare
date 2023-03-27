@@ -1,5 +1,5 @@
 {
-  "name": "atxt-share",
+  "name": "aitxt-share",
   "version": "1.0.0",
   "description": "Share your content like Text, Code, Document, Question Answer etc. in one click.",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashishingle29/Atxt-Share.git"
+    "url": "git+https://github.com/ashishingle29/Aitxt-Share.git"
   },
   "keywords": [
     "ATxt",
@@ -23,9 +23,9 @@
   "author": "Ashish Ingle",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ashishingle29/Atxt-Share/issues"
+    "url": "https://github.com/ashishingle29/Aitxt-Share/issues"
   },
-  "homepage": "https://github.com/ashishingle29/Atxt-Share#readme",
+  "homepage": "https://github.com/ashishingle29/Aitxt-Share#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
