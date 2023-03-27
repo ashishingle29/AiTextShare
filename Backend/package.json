@@ -1,11 +1,11 @@
 {
-  "name": "atxt-share",
+  "name": "aitxt-share",
   "version": "1.0.0",
   "description": "Share your content like Text, Code, Document, Question Answer etc. in one click.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
   "homepage": "https://github.com/ashishingle29/Atxt-Share#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.0.3",
     "nodemon": "^2.0.22"
