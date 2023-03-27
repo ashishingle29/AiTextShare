@@ -4,7 +4,7 @@
   "description": "Share your content like Text, Code, Document, Question Answer etc. in one click.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src",
+    "start": "nodemon src/index.js",
     "build": "npm i"
   },
   "repository": {
