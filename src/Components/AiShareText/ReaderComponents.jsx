@@ -2,13 +2,16 @@ import axios from 'axios';
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom';
 import './ReaderComponents.css'
+// import dotenv from 'dotenv';
+// dotenv.config()
+const bk = "https://aitext-share-bkl.onrender.com" // process.env.BACK_END
 
 function ReaderComponents() {
     const [readdata, setReaddata] = useState()
     const { urlCode } = useParams()
     // console.log(urlCode)
 
-    axios.get(`http://localhost:3000/${urlCode}`)
+    axios.get(`${bk}/${urlCode}`)
         .then((response) => {
             // console.log(response.data.Data.txt)
             setReaddata(response.data.Data.txt)

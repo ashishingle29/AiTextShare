@@ -1,7 +1,9 @@
 import { React, useState } from 'react'
 import axios from 'axios'
 import './CreateComponents.css'
-
+// import dotenv from 'dotenv';
+// dotenv.config()
+const bk = "https://aitext-share-bkl.onrender.com" // process.env.BACK_END
 
 
 function CreateComponents() {
@@ -14,7 +16,7 @@ function CreateComponents() {
         event.preventDefault()
         let textData = {}
         textData.txt = content
-        axios.post("http://localhost:3000/create", textData)
+        axios.post(`${bk}/create`, textData)
             .then((res) => {
                 setBaseurl(res.data.TextContent.baseurl)
                 setTxt(res.data.TextContent.txt)
@@ -72,7 +74,7 @@ function CreateComponents() {
                                 <h2>Your Sharing Url is here </h2>
                             </div>
                             <div className='sortURL'>
-                                <a a href={baseurl} target="_blank">https://aitxt.netlify.app{baseurl}</a>
+                                <a href={`/aitxt${baseurl}`} target="_blank">https://aitxt.netlify.app{baseurl}</a>
                                 <button onClick={handleCopy} >Copy</button>
                             </div>
                         </div>

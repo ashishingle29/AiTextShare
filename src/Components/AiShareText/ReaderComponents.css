@@ -2,11 +2,10 @@
   flex-direction: column;
   margin: 20px;
 }
-.reader p{
+.reader p {
   font-size: 20px;
   font-family: cursive;
   margin: 10px;
-  
 }
 .reader_contentBox {
   padding: 10px;
@@ -14,10 +13,10 @@
   border-radius: 10px;
   white-space: pre-wrap;
   word-break: break-all;
-
+  margin-bottom: 100px;
 }
-.reader_contentBox:hover{
-    border-color: #adadad;
+.reader_contentBox:hover {
+  border-color: #adadad;
 }
 
 #btn {
@@ -26,5 +25,4 @@
   padding: 10px 20px;
   cursor: pointer;
   font-size: 18px;
-
 }
