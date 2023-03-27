@@ -1,0 +1,30 @@
+.reader {
+  flex-direction: column;
+  margin: 20px;
+}
+.reader p{
+  font-size: 20px;
+  font-family: cursive;
+  margin: 10px;
+  
+}
+.reader_contentBox {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  white-space: pre-wrap;
+  word-break: break-all;
+
+}
+.reader_contentBox:hover{
+    border-color: #adadad;
+}
+
+#btn {
+  margin-top: 10px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+
+}

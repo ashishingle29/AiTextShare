@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+#mainBox {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin: 20px;
+  align-items: center;
+}
+
+.heading h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.content_Boxheading {
+  /* display: block; */
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+
+.inputs {
+  height: 400px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+  top: 0;
+  resize: none;
+}
+
+#btn {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.SubmittedData {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.SubmittedData h2 {
+  border-top: 1px solid black;
+}
+
+.sortURL {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid #ccc;
+  padding-left: 20px;
+  border-radius: 99.99px;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.sortURL:hover {
+  border: 2px solid #989898;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 99.99px;
+  font-size: 1rem;
+  cursor: pointer;
+  /* margin-left: 10px; */
+  padding: 10px 20px;
+}
+
+.returnContent {
+  white-space: pre-wrap;
+  word-break: break-all;
+  align-items: center;
+  font-size: 1.2rem;
+  /* width: 100%; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 100%) {
+  .inputs {
+    width: 100%;
+  }
+}
