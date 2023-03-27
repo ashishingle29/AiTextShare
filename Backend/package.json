@@ -4,8 +4,8 @@
   "description": "Share your content like Text, Code, Document, Question Answer etc. in one click.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon indesx.js",
-    "build": "npm i"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
