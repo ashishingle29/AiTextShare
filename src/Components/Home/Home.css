@@ -1,9 +1,10 @@
 .home_page {
-    margin: 0;
+  margin: 0;
   padding: 30px;
+  margin-bottom: 30px;
 }
 
-.hadding{
+.hadding {
   text-align: center;
   margin-bottom: 30px;
   padding-bottom: 20px;
@@ -12,13 +13,14 @@
   color: #101010;
   font-family: cursive;
   border-bottom: 2px solid rgb(64, 64, 64);
-
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
 }
 
 .grid-item {
@@ -57,4 +59,42 @@
   color: #ffffff;
   transform: translateY(20px);
   transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.main-container-about {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.mission-statement {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.cta {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #0056b3;
 }
