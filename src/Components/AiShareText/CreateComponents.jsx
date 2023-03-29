@@ -1,8 +1,8 @@
 import { React, useState } from 'react'
 import axios from 'axios'
 import './CreateComponents.css'
-// import dotenv from 'dotenv';
-// dotenv.config()
+import { NavLink } from "react-router-dom";
+
 const bk = "https://aitext-share-bkl.onrender.com" // process.env.BACK_END
 
 
@@ -74,7 +74,8 @@ function CreateComponents() {
                                 <h2>Your Sharing Url is here </h2>
                             </div>
                             <div className='sortURL'>
-                                <a href={`/aitxt${baseurl}`} target="_blank">https://aitxt.netlify.app{baseurl}</a>
+                                
+                                <NavLink to={`/aitxt${baseurl}`} target="_blank">https://aitxt.netlify.app{baseurl}</NavLink>
                                 <button onClick={handleCopy} >Copy</button>
                             </div>
                         </div>

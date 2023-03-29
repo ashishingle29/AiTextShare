@@ -66,16 +66,18 @@ form {
 }
 
 .sortURL {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
-  border: 1px solid #ccc;
-  padding-left: 20px;
-  border-radius: 99.99px;
-  justify-content: space-between;
-  font-size: 20px;
+     display: flex;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    border: 1px solid #ccc;
+    padding-left: 5%;
+    border-radius: 99.99px;
+    font-size: 20px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+
 }
 
 .sortURL:hover {
@@ -87,7 +89,7 @@ button {
   color: #fff;
   border: none;
   border-radius: 99.99px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   cursor: pointer;
   /* margin-left: 10px; */
   padding: 10px 20px;

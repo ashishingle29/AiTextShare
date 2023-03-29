@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import { NavLink } from "react-router-dom";
 
 function Home() {
 
@@ -52,9 +53,9 @@ function Home() {
       <div className="grid-container">
         {tools.map(tool => (
           <div className="grid-item" key={tool.title}>
-            <a href={tool.link}>
+            <NavLink to={tool.link} exact>
               <img src={tool.image} alt={tool.title} />
-            </a>
+            </NavLink>   
             <h2>{tool.title}</h2>
           </div>
         ))}

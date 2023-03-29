@@ -1,7 +1,6 @@
 import React from 'react'
-// import { IoLogoFacebook, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
-// import { RxAvatar } from 'react-icons/rx'
 import './Header.css'
+import { NavLink } from "react-router-dom";
 function Header() {
     return (
         <div className='header'>
@@ -10,8 +9,8 @@ function Header() {
             </div>
             <div className='header__Social'>
                 <ul>
-                    <li><a href='/'>Home</a></li>
-                    <li><a href='/aitxt'>Ai Text</a></li>
+                    <li><NavLink to='/'>Home</NavLink></li>
+                    <li><NavLink to='/aitxt'>Ai Text</NavLink></li>
                     <li><a href='https://github.com/ashishingle29' target='_blank'>Github</a></li>
                     <li><a href='https://www.linkedin.com/in/ashishingle29' target='_blank'>Linkedin</a></li>
                     <li><a href='https://www.facebook.com/Ashish.ingle.786/' target='_blank'>Facebook</a></li>

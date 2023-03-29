@@ -2,7 +2,7 @@ import React from 'react'
 import CreateComponents from "./Components/AiShareText/CreateComponents"
 import Footer from './Components/Footer/Footer'
 import Header from './Components/Header/Header'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter , Route, Routes } from 'react-router-dom'
 import ReaderComponents from './Components/AiShareText/ReaderComponents'
 import Home from './Components/Home/Home'
 import Weather from './Components/WeatherApplication/Weather'
@@ -19,7 +19,6 @@ function App() {
         <Route exact path='/aitxt/:urlCode' element={<ReaderComponents />} />
         <Route exact path='/weather-app' element={<Weather />} />
         <Route exact path='/youtube' element={<Youtube />} />
-        
       </Routes>
       <Footer />
     </BrowserRouter>
