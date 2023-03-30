@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 function Header() {
     return (
         <div className='header'>
-            <div className='header__Logo'>
-                <h1>Ai Tools Hub</h1>
+            <div className='header___Logo'>
+                <h1>Tools Hub</h1>
             </div>
             <div className='header__Social'>
                 <ul>

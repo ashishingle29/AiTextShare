@@ -22,12 +22,22 @@ function Home() {
     },
     {
       image: 'https://pbs.twimg.com/media/Fr9S0QQWAAAV_yh?format=png&name=900x900',
-      title: 'Tool 4',
+      title: 'Google Search',
+      link: 'https://ai-search.netlify.app/',
+    },
+    {
+      image: 'https://pbs.twimg.com/media/Fr9S0QQWAAAV_yh?format=png&name=900x900',
+      title: 'Online Compiler',
       link: '/',
     },
     {
       image: 'https://pbs.twimg.com/media/Fr9S0QQWAAAV_yh?format=png&name=900x900',
-      title: 'Tool 5',
+      title: 'Video Player', //hidden key ["FunctionUp"] = 
+      link: '/',
+    },
+    {
+      image: 'https://pbs.twimg.com/media/Fr9S0QQWAAAV_yh?format=png',
+      title: 'Calculator',
       link: '/',
     },
     {
@@ -40,7 +50,6 @@ function Home() {
       title: 'Tool 6',
       link: '/',
     },
-
   ];
 
 

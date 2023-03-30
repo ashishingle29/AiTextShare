@@ -37,7 +37,7 @@ function CreateComponents() {
     }
 
     function handleCopy() {
-        const text = "https://aitxt.netlify.app"+baseurl;
+        const text = "https://toolshub.netlify.app/aitxt"+baseurl;
         const input = document.createElement("input");
         input.setAttribute("value", text);
         document.body.appendChild(input);
@@ -75,7 +75,7 @@ function CreateComponents() {
                             </div>
                             <div className='sortURL'>
                                 
-                                <NavLink to={`/aitxt${baseurl}`} target="_blank">https://aitxt.netlify.app{baseurl}</NavLink>
+                                <NavLink to={`/aitxt${baseurl}`} target="_blank">https://toolshub.netlify.app/aitxt{baseurl}</NavLink>
                                 <button onClick={handleCopy} >Copy</button>
                             </div>
                         </div>

@@ -4,14 +4,16 @@
   justify-content: space-between;
   align-items: center;
   background-color: #212121;
-  padding: 20px;
-  box-shadow: 0px 1px 5px rgba(66, 255, 239, 0.986);
+  padding: 10px;
+  /* flex-direction: column; */
   
 }
 
 /* Style for the Logo */
-.header__Logo h1 {
-  font-size: 28px;
+ .header___Logo h1{
+  margin-bottom: 0px;
+  margin: 5px;
+  font-size: 30px;
   color: hsl(176, 100%, 63%);
 }
 
