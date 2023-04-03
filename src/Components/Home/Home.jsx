@@ -12,6 +12,11 @@ function Home() {
     },
     {
       image: 'https://pbs.twimg.com/media/Fr9S0QQWAAAV_yh?format=png&name=900x900',
+      title: 'IPL Live Score',
+      link: '/ipl-live-score',
+    },
+    {
+      image: 'https://pbs.twimg.com/media/Fr9S0QQWAAAV_yh?format=png&name=900x900',
       title: 'Weather Application',
       link: '/weather-app',
     },
@@ -64,12 +69,12 @@ function Home() {
           <div className="grid-item" key={tool.title}>
             <NavLink to={tool.link} exact>
               <img src={tool.image} alt={tool.title} />
-            </NavLink>   
-            <h2>{tool.title}</h2>
+              <h2>{tool.title}</h2>
+            </NavLink>
           </div>
         ))}
       </div>
-  
+
       <div className='home_aboutus'>
         <div class="main-container-about">
           <h1>Welcome to Ai Tools Hub</h1>

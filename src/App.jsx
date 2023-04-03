@@ -7,6 +7,7 @@ import ReaderComponents from './Components/AiShareText/ReaderComponents'
 import Home from './Components/Home/Home'
 import Weather from './Components/WeatherApplication/Weather'
 import Youtube from './Components/Youtube/Youtube'
+import LiveScore from './Components/IplLiveScore/LiveScore'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/aitxt/:urlCode' element={<ReaderComponents />} />
         <Route exact path='/weather-app' element={<Weather />} />
         <Route exact path='/youtube' element={<Youtube />} />
+        <Route exact path='/ipl-live-score' element={<LiveScore />} />
       </Routes>
       <Footer />
     </BrowserRouter>
