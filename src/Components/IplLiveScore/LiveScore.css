@@ -4,6 +4,7 @@
   padding: 20px;
   font-family: Arial, sans-serif;
   font-size: 16px;
+  margin-bottom: 80px;
 }
 
 .main_page_heading h1 {
@@ -25,25 +26,33 @@
 .main_status_crr {
   display: flex;
   justify-content: space-between;
-  font-size: 15px;
-  margin-left: 10%;
-  margin-right: 30%;
-  color: #dc1919;
+  font-size: 20px;
+  margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 2%;
+    /* font-weight: bold; */
+  color: #F25749;
+
 }
 
 .main_team_score {
   margin-left: 10%;
   margin-right: 10%;
-  border: 2px solid blue;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  border: 2px solid #0C9AF2;
   border-radius: 23px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.26);
 }
 
 .main_teamscore_title {
   padding: 7px;
   font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #ffffff;
   text-align: center;
-  background-color: #160be3;
+  background-color: #0C9AF2;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -58,7 +67,7 @@
 
 .main_team2,
 .main_team1 {
-  /* border: 2px solid blue; */
+  /* border: 2px solid #0C9AF2; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -97,23 +106,34 @@
   align-items: center;
   justify-content: flex-end;
   margin-right: 12%;
-
+  margin-bottom: 1%;
+  font-size: 18px;
+  color: #f04835;
 }
 
 .main_batters,
 .main_bowler {
-  border: 1px solid blue;
+  border: 1px solid #0C9AF2;
+  border-radius: 11px;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.26);
+  
+  /* margin-top: 30px; */
 }
 .main_batters_heading,
 .main_bowler_heading {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #160be3;
+  
+  background-color: #0C9AF2;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .main_batter_title_left,
@@ -135,11 +155,16 @@
 .main_batters_player1,
 .main_batters_player2,
 .main_bowler_player1 {
+  padding-top: 14px;
+  padding-bottom: 14px;
   display: flex;
   justify-content: space-around;
+
   align-items: center;
   width: 100%;
   border-bottom: 1px solid #ccc;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .main_recent_bolls,
@@ -148,5 +173,9 @@
     flex-direction: row;
     align-items: center;
     margin-left: 10%;
-    text-shadow: 1px 1px 1px #4b61f384;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
 }
+
+
