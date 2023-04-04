@@ -68,7 +68,7 @@ function LiveScore() {
     useEffect(() => {
         const intervalId = setInterval(() => {
             fetch(
-                "https://cricket-live-api.vercel.app/cri.php?url=https://www.cricbuzz.com/live-cricket-scores/66204/dc-vs-gt-7th-match-indian-premier-league-2023"
+                "https://cricket-live-api.vercel.app/cri.php?url=https://www.cricbuzz.com/live-cricket-scores/66208/rr-vs-pbks-8th-match-indian-premier-league-2023"
             )
                 .then((response) => response.json())
                 .then((data) => setNews(data))
@@ -129,7 +129,7 @@ function LiveScore() {
                     <div className='main_teams_scores'>
                         <div className='main_team1'>
                             <div className='main_tram1_logo_name'>
-                                <img src='https://www.rajasthanroyals.com/static-assets/images/teams/1109.png?v=5.24' alt="Team 1 Logo" />
+                                <img src='https://www.rajasthanroyals.com/static-assets/images/teams/1110.png?v=5.24' alt="Team 1 Logo" />
                                 <p>{title.split("vs")[0]}</p>
                             </div>
                             <div className='main_team1_scores'>
@@ -138,7 +138,7 @@ function LiveScore() {
                         </div>
                         <div className='main_team2'>
                             <div className='main_tram2_logo_name'>
-                                <img src='https://www.rajasthanroyals.com/static-assets/images/teams/2955.png?v=5.24' alt="Team 1 Logo" />
+                                <img src='https://www.rajasthanroyals.com/static-assets/images/teams/1107.png?v=5.24' alt="Team 1 Logo" />
                                 <p>{title.split("vs")[1].split(",")[0]}</p>
                             </div>
                             <div className='main_team2_scores'>
