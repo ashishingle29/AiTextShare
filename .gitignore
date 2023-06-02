@@ -23,6 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 .env
-Youtube
-src/Components/Youtube
-Components/Youtube
+
+Weather.css
+Weather.jsx

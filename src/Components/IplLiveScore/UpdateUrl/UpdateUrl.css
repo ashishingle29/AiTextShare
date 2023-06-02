@@ -1,0 +1,40 @@
+.Update {
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.UpdateH1 {
+  padding: 1rem;
+  font-family: "system-ui";
+}
+
+.UpdateForm {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid rgb(39, 19, 150);
+  align-items: center;
+  border-radius: 50px;
+  width: 50%;
+}
+
+.UpdateInput {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: none;
+  outline: none;
+  height: 2.5rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.UpdateButton {
+  /* height: 2rem; */
+  justify-content: center;
+  align-items: center;
+}

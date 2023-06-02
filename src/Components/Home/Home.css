@@ -69,12 +69,13 @@
   font-family: Arial, sans-serif;
 }
 
-h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
+.heading {
+  font-size: 48px !important;
+  margin-bottom: 20px !important;; 
 }
 
 .description {
+  
   font-size: 24px;
   margin-bottom: 40px;
 }
@@ -82,6 +83,7 @@ h1 {
 .mission-statement {
   font-size: 20px;
   margin-bottom: 40px;
+  text-align: start;
 }
 
 .cta {

@@ -8,6 +8,7 @@ import Home from './Components/Home/Home'
 import Weather from './Components/WeatherApplication/Weather'
 import Youtube from './Components/Youtube/Youtube'
 import LiveScore from './Components/IplLiveScore/LiveScore'
+import UpdateUrl from './Components/IplLiveScore/UpdateUrl/UpdateUrl'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/weather-app' element={<Weather />} />
         <Route exact path='/youtube' element={<Youtube />} />
         <Route exact path='/ipl-live-score' element={<LiveScore />} />
+        <Route exact path='/iplupdate' element={<UpdateUrl />} />
       </Routes>
       <Footer />
     </BrowserRouter>
