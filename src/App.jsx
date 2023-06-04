@@ -9,6 +9,7 @@ import Weather from './Components/WeatherApplication/Weather'
 import Youtube from './Components/Youtube/Youtube'
 import LiveScore from './Components/IplLiveScore/LiveScore'
 import UpdateUrl from './Components/IplLiveScore/UpdateUrl/UpdateUrl'
+import WordCount from './Components/WordCount/WordCount'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route exact path='/youtube' element={<Youtube />} />
         <Route exact path='/ipl-live-score' element={<LiveScore />} />
         <Route exact path='/iplupdate' element={<UpdateUrl />} />
+        <Route exact path='/word-counter' element={<WordCount />} />
       </Routes>
       <Footer />
     </BrowserRouter>

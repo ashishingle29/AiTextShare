@@ -1,0 +1,62 @@
+.wordCount {
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  margin-bottom: 10rem;
+}
+
+.wordCountHeading {
+  /* border: solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ padding: 1rem;
+}
+/* .wordCountHeading p {
+  border: solid blue;
+margin
+} */
+
+.wordCountPera {
+  margin: 10px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.wordCountInput {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+  border: none;
+  outline: none;
+   resize: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wordCountInputForm {
+  display: flex;
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: solid rgba(163, 163, 163, 0.56);
+  outline: none;
+}
+
+.resultText {
+  /* border: solid; */
+  margin-left: .5rem;
+  margin-right: .5rem;
+  padding: 0.3rem;
+  font-size: medium;
+  background-color: rgb(227, 227, 253);
+}
+
+.resultCount {
+  border: solid;
+  padding: 0.5rem;
+  margin: 2rem;
+
+}

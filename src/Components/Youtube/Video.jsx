@@ -15,6 +15,7 @@ function getCss(imageurl) {
   };
   return _styles;
 }
+
 function constructVideoTitles(vidoesData, onVideoSelected) {
   return vidoesData.map(({ snippet, id }, index) => {
     return (
@@ -24,7 +25,7 @@ function constructVideoTitles(vidoesData, onVideoSelected) {
         onClick={() => selectVideo(id, onVideoSelected)}
       >
         <div style={getCss(snippet.thumbnails.high.url)} key={index} />
-        <p className="title">{snippet.title}</p>
+        {/* <p className="title">{snippet.title}</p> */}
       </div>
     );
   });

@@ -9,6 +9,7 @@ import myImageaisearch from '../../assets/aisearch.png';
 import myImageonlineCompiler from '../../assets/onlineCompiler.png';
 import myImagevplayer from '../../assets/vplayer.png';
 import myImagecalculator from '../../assets/calculator.png';
+import wordcounter from '../../assets/wordcounter.png';
 
 function Home() {
 
@@ -37,6 +38,11 @@ function Home() {
       image: myImageaisearch,
       title: 'Google Search',
       link: 'https://ai-search.netlify.app/',
+    },
+    {
+      image: wordcounter,
+      title: 'Word Counter',
+      link: '/word-counter',
     },
     {
       image: myImageonlineCompiler,

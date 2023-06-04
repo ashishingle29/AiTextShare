@@ -10,24 +10,20 @@ body {
 } */
 
 .App {
-  background: rgb(16, 17, 18);
-  border: solid 1px rgb(255, 255, 255);
-  width: 100%;
-  /* height: 100%; */
-  position: absolute;
-  /* top: 50%; */
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
+  background: rgb(16, 17, 18);
+  border: solid 1px rgb(255, 255, 255);
+  width: 100%;
+  height: 80vh;
+  }
 
 .Header {
-  background: rgb(16, 17, 18);
+  /* background: rgb(36, 15, 119); */
   z-index: 1;
   width: 100%;
-  height: 25%;
+  height: 20%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -36,25 +32,26 @@ body {
 }
 
 iframe {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 50%;
-  width: 60%;
-  border: 0;
+ position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 55%;
+    width: 60%;
+    border: 0;
 }
 
 
 .Header div {
-  background: rgb(0, 0, 0);
+  /* background: rgb(30, 4, 4); */
   width: 15%;
-  height: 50%;
+  height: 6.5rem;
   border-radius: 4px;
 }
 
 .title {
-  font-size: xx-small;
+  font-size: 12px;
+  color: white;
 }
 
 .VideoCards {
@@ -67,10 +64,10 @@ iframe {
 .Body {
   background: rgb(0, 0, 0);
   width: 100%;
-  height: 60%;
-  z-index: 0;
+  height: 80%;
+  /* z-index: 0; */
   border-bottom: solid 1.5px rgb(0, 119, 255);
-  border-top: solid 1.5px rgb(255, 55, 0);
+  border-top: solid 1.5px rgb(169, 169, 169);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -102,7 +99,7 @@ iframe {
 
 .Footer {
   background: rgb(16, 17, 18);
-  z-index: 1;
+  /* z-index: 1; */
   width: 100%;
   height: 15%;
   display: flex;
@@ -110,6 +107,7 @@ iframe {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 30px rgb(0, 9, 19);
+  margin-bottom: 1rem;
 }
 
 .Search {
@@ -119,7 +117,7 @@ iframe {
   border: 2px solid #38a8ed7b;
   border-radius: 8px;
   font-size: 16px;
-  background-color: rgba(22, 31, 86, 0.24);
+  background-color: rgb(229, 229, 229);
   background-position: 10px 10px; 
   background-repeat: no-repeat;
   padding: 0px 8px 0px 8px;

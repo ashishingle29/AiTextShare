@@ -7,7 +7,6 @@ import Videoplayer from "./VideoPlayer";
 
 import "./Youtube.css";
 
-const arrayDivs = [1, 2, 3, 4, 5];
 
 export default class App extends React.Component {
     state = {
@@ -40,11 +39,11 @@ export default class App extends React.Component {
 
                 <div className="Body">
                     <div className="Description">
-                        <p>Description</p>
+                        {/* <p>Description</p> */}
                     </div>
                     <Videoplayer videoId={this.state.selectedVideoId} />
                     <div className="Comment">
-                        <p>Comments</p>
+                        {/* <p>Comments</p> */}
                     </div>
                 </div>
 
