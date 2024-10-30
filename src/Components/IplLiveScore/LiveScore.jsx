@@ -9,12 +9,39 @@ const bk = "https://aitext-share-bkl.onrender.com"
 
 function LiveScore() {
 
-
+    const dummyIplData = {
+        title: "Mumbai Indians vs Chennai Super Kings, Match 15",
+        update: "Mumbai Indians need 50 runs in 30 balls",
+        runrate: "CRR: 8.5",
+        teamone: "MI: 150/5 (15 overs)",
+        teamtwo: "CSK: 149/7 (20 overs)",
+        partnership: "23(12)",
+        batsman: "Rohit Sharma",
+        batsmanrun: "40",
+        ballsfaced: "26",
+        fours: "4",
+        sixes: "2",
+        sr: "153.8",
+        batsmantwo: "Suryakumar Yadav",
+        batsmantworun: "25",
+        ballsfacedtwo: "18",
+        fourstwo: "3",
+        sixestwo: "0",
+        srtwo: "138.9",
+        bowler: "Deepak Chahar",
+        bowlerover: "3",
+        bowlermaiden: "0",
+        bowlerruns: "24",
+        bowlewickets: "1",
+        recentballs: "4 1 1 W 6 1",
+        lastwicket: "Hardik Pandya b Deepak Chahar",
+        commentary: "Rohit drives it through covers for a boundary."
+    };
 
     const [url, setUrl] = useState("")
-    const [iplData, setIplData] = useState("")
-    const [teamOneLogo, setTeamOneLogo] = useState("")
-    const [teamTwoLogo, setTeamTwoLogo] = useState("")
+    const [iplData, setIplData] = useState(dummyIplData)
+    const [teamOneLogo, setTeamOneLogo] = useState("https://www.rajasthanroyals.com/static-assets/images/teams/1111.png?v=5.24")
+    const [teamTwoLogo, setTeamTwoLogo] = useState("https://www.rajasthanroyals.com/static-assets/images/teams/1108.png?v=5.24")
 
 
     const LogoName = ["Mumbai Indians", "Delhi Capitals", "Royal Challengers Bangalore", "Sunrisers Hyderabad", "Kolkata Knight Riders", "Chennai Super Kings", "Gujarat Titans", "Panjab Kings", "Rajasthan Royals", "Lucknow Super Giants"]
@@ -33,7 +60,7 @@ function LiveScore() {
 
 
     useEffect(() => {
-        axios.get(`http://localhost:3000/ipl/getiplurl`)
+        axios.get(`${bk}/ipl/getiplurl`)
             .then((res) => {
                 // console.log(res.data)
                 setUrl(res.data.data.url)
@@ -41,7 +68,7 @@ function LiveScore() {
             .catch((error) => {
                 console.log(error.message)
             })
-    }, [url])
+    }, [])
 
 
 
